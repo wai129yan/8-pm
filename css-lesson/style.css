@@ -1,0 +1,15 @@
+h1.title{
+    color: rgb(101, 10, 10);
+    font: 6rem;
+    background-color: rgb(169, 213, 213);
+}
+
+.para{
+    color:rgb(21, 98, 72);
+    background: rgb(51, 44, 39);
+}
+
+#par-1{
+    font-size: x-large;
+    font-style: italic;
+}
