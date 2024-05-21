@@ -1,0 +1,15 @@
+h1{
+    background: pink;
+}
+
+.app h1{
+    background: blue;
+}
+
+.sub h1{
+    background: greenyellow;
+}
+
+.add h1{
+    background: red;
+}

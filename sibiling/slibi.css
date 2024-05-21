@@ -1,0 +1,13 @@
+.app {
+    font-weight: bold;
+    font-size: 3rem;
+}
+/* adjacent sibling */
+.app + li {
+    background: red;
+}
+
+/* general sibling */
+.app ~ li {
+    text-align: center;
+}
