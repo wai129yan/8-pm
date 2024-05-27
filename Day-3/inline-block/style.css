@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+p{
+    background: red;
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+
+    /* display: inline; */
+
+
+}
+
+a{
+    display: inline-block;
+    text-align: center;
+    background: green;
+    width: 200px;
+    height: 80px;
+
+    
+}

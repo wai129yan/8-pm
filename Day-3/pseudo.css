@@ -1,0 +1,74 @@
+h3{
+    width: fit-content;
+    padding:200px;
+    background: pink;
+    transition:0.5s;
+}
+
+h3:hover , h3:active {
+    background: red;
+    color: #fff;
+    border: 3px solid yellow;
+}
+
+a:visited {
+    color: tomato;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type="text"]:active{
+    background:orange;
+}
+
+input[type="email"]:hover {
+    background-color: aquamarine;
+}
+
+.app :first-child {
+    background: red;
+}
+
+.app :last-child{
+    background:red;
+}
+
+.app :nth-child(3){
+    background: green;
+}
+
+.app :nth-child(odd){
+    text-align:center
+}
+
+.app :nth-child(even) {
+    text-align: right
+}
+/* pseudo element */
+.h1::before {
+    content: "HTML";
+    background: red;
+    display: block;
+
+}
+
+.h1::after {
+    content: "JS";
+    background: green;
+    display: block;
+}
+
+h1{
+    background: yellow;
+    width: 200px;
+    text-align: center;
+    color: black;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+    color: red;
+    font-size: 1.1rem;
+}

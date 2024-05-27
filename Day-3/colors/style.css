@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(50deg,#654d4d07),rgba(122, 159, 122, 0.01),rgba(220, 40, 70, 0.107);
+    background: radial-gradient(circle,rgba(215, 132, 132, 0.516),rgba(194, 194, 218, 0.608),rgba(215, 157, 215, 0.564)),url("./Stonehenge.jpg"); 
+    background-size: cover; 
+}

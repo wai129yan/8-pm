@@ -24,3 +24,14 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+<!-- if ($request->filled(['start_date', 'end_date'])) {
+            $startDate = Carbon::createFromFormat('Y-m-d', $request->input('start_date'))->startOfDay();
+            $endDate = Carbon::createFromFormat('Y-m-d', $request->input('end_date'))->endOfDay();
+            $query->whereBetween('created_at', [$startDate, $endDate]);
+        } -->

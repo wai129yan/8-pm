@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <a href="#">Links1</a>
+    <a href="#">Links2</a>
+    <a href="#">Links3</a>
+    <a href="#">Links4</a>
+    <a href="#">Links5</a>
+    <a href="#">Links6</a>
+    <a href="#">Links7</a>
+    <a href="#">Links8</a>
+
+    <script>
+        var links = document.getElementsByTagName("a");
+
+        for(i=0;i < links.length;i++){
+            links[i].className = "link-" + i ;
+        }
+
+
+
+
+        console.log("*******************");
+
+        function getAverage (a,b){
+            var average= (a+b) /2;
+            console.log(average);
+        }
+
+        getAverage(7,22);
+    
+        console.log("*******************");
+
+        function getNumber(a,b){
+
+            var number = (a+b) /2;
+            console.log(number);
+            return number;
+           
+        }
+
+        var final = getNumber(7,6);
+        console.log("the last is " + final);
+       
+    </script>
+</body>
+</html>
