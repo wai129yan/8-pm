@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* %work form parent element */
+/* px for exact width&height */
+/* vw&vh work from eye screen */
+/* 1rem=16px */
+/* 1em=1rem=16px */
+/* 1rem work from root */
+/* em work from parent */
+
+
+
+.app {
+    /* width: 500px;
+    height: 200px;
+    width: 200px;
+    height: 100vw; */
+    width: 400rem;
+    height: 300rem;
+    background:red;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    width: 700px;
+    background: pink;
+    font-size: 2rem;
+    line-height: 1.5em;
+}

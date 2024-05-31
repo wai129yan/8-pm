@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box-1{
+    background: red;
+    /* padding: 20px;  
+    padding: 20px 40px;
+    padding: 10px 50px 10px; */
+    padding: 20px 30px 40px 50px;
+    padding-top:20px ;
+    padding-bottom:30px ;
+    padding-left: 40px;
+    padding-right:0 ;  
+    margin: 20px;
+    margin: 20px 40px;
+    margin: 20px 40px 20px;
+    margin: 20px 40px 20px 20px;
+    margin-top:50px ;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+
+}
+
+.box-2 {
+    background: green;
+
+}
