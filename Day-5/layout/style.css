@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background:red ;
+}
+
+.l-side {
+    width: 20%;
+    height: 400px;
+    background: #caa8a8;
+    float: left;
+}
+
+.body{
+    width: 60%;
+    height: 400px;
+    background: #b3e65c;
+    float: left;
+}
+
+.r-side{
+    width: 20%;
+    height: 400px;
+    background: #99c4f5;
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #beae1a;
+    clear:both
+}
