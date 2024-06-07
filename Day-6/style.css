@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(13, 136, 141);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./watercolor-7234066_1280.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+form{
+    
+    width: 500px;
+    height: auto;
+    background-color: rgba(205, 229, 194, 0.016);
+    backdrop-filter: blur(10px);
+    margin: auto;
+    margin-top: 90px;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 50px rgb(180, 155, 207);
+    
+}
+
+label,input{
+    display: block;
+
+}
+
+
+lable{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 13px 20px;
+    background: #bf9d9d;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgb(204, 197, 8);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+}
+
+input::placeholder{
+    color: rgb(171, 196, 197);
+}
+
+input[type="submit"]{
+    background: #edecec;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+    
