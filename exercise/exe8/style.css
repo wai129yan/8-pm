@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+
+}
+
+.box{
+    margin-bottom: 10px;
+    background: orange;
+}
