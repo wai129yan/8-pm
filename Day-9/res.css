@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.app{
+    width: 1200px;
+    height: 500px;
+    background: pink;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+@media (max-width: 1250px){
+    .app{
+        background: #f0b8b8;
+        width: 950px;
+    }
+    h1{
+        font-size:4rem;
+    }
+}
+
+@media(max-width:998px){
+    .app{
+        background: #cfa9a9;
+        width: 730px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:768px) {
+    .app {
+        background: #bfde61ae;
+        width: 480px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:578px) {
+    .app {
+        background: #dec745;
+
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="cart">
+                <div class="items">
+                    <h2>Items</h2>
+                    <div class="item">
+                        <img src="flowerL_910e6792-140d-4bfd-bb3e-fc32a17ece31_700x700.jpg"
+                            alt="Ceramic vase Rosenthal, 25 cm">
+                        <div class="details">
+                            <p>Ceramic vase Rosenthal, 25 cm</p>
+                            <p>Vendor code #1345679</p>
+                        </div>
+                        <div class="price">23.99 €</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- deli -->
+            <div class="delivery">
+                <h2>Delivery</h2>
+
+            </div>
+            <div class="payment">
+                <h2>Payment</h2>
+                <div class="payment-method">
+                    <input type="radio" name="payment-method" id="paypal" checked>
+                    <label for="paypal">PayPal</label>
+                </div>
+                <hr>
+
+                <div class="payment-method">
+                    <input type="radio" name="payment-method" id="card">
+                    <label for="card">Credit or debit card</label>
+                    <!-- <div class="card-details">
+                    <input type="text" placeholder="Card number">
+                    <input type="text" placeholder="MM/YY">
+                    <input type="text" placeholder="CVC/CVV">
+                </div> -->
+                    <div class="card-details">
+                        <div>
+                            <h3>Card Number</h3>
+                            <input type="text">
+                        </div>
+                        
+
+                        <div class="date">
+                            <h3>Expiry date</h3>
+                            <input type="date">
+                        </div>
+                        <div>
+                            <h3>CVC/CVV</h3>
+                            <input type="password">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <h2>Total</h2>
+            <p>Items, 1: <span>23.99 €</span></p>
+            <p>Delivery: <span>fo free</span></p>
+            <p>Date: <span>18 of october</span></p>
+            <p>Payment: <span>by card</span></p>
+            <button>Proceed</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

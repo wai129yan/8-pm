@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.app {
+    min-height: 100vh;
+    background: green;
+}
+
+@media (min-width:576px){
+    .app{
+        background: pink;
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:768px) {
+    .app {
+        background: rgb(214, 101, 122);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width:998px) {
+    .app {
+        background: rgb(163, 236, 157);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .app {
+        background: rgb(189, 37, 159);
+    }
+
+    h1 {
+        font-size: 5rem;
+        color: aquamarine;
+    }
+}
