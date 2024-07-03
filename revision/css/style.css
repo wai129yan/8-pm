@@ -9,6 +9,7 @@
     text-decoration: none;
     font-size: 1rem;
     color: #ffff;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -40,7 +41,7 @@ nav{
     padding:5px 10px;
     margin:20px;
     border-radius: 10px;
-    box-shadow: inset 2px 2px rgb(201, 228, 251);
+    box-shadow: inset 2px 2px rgb(201, 216, 232);
 }
 .nav-links a:hover{
     background:rgb(198, 222, 225);
@@ -108,9 +109,176 @@ section{
 }
 .about-container{
     display: flex;
+    flex-wrap: wrap;
    align-items: center;
     flex-direction: columns;
 }
 .about-info{
     margin: 30px ;
+}
+
+
+
+/* menu */
+
+.menu *{
+    color:#5A639C;
+}
+.menu{
+    background: #f1eff5;
+}
+.menu-container{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 50px 20px;
+}
+
+.menu-card{
+    flex: 1 1 12rem;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.menu-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.menu-title{
+    margin-bottom:50px ;
+}
+
+/* service */
+
+.service{
+    background:rgba(121, 192, 138, 0.708);
+}
+.service *{
+    color: #6275ba;
+}
+.service-title{
+    margin-bottom: 50px;
+}
+
+.service-card{
+    flex: 1 1 22rem;
+    text-align: center;
+    position: relative;
+    height: 280px;
+}
+.service-img,.service-info{
+    position: absolute;
+    inset: 0;
+}
+
+.service-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.service-info{
+    background: #d1fff4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* transform: scale(0);
+    transform-origin: top right; */
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.service-card:hover .service-info{
+    /* transform: scale(1); */
+    transform: translate(0);
+}
+
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    overflow: hidden;
+}
+.service-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+/* contact */
+
+.contact * {
+    color: #6275ba;
+}
+.contact{
+    background: #efebeb;
+}
+
+.contact-container{
+    display: flex;
+    background: #ddefeb;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 20px 50px;
+}
+.con{
+    flex: 1; 
+}
+
+.img img{
+    width: 600px;
+    height:400px;
+   
+}
+
+
+.para{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Bodoni Moda SC;
+    padding-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    font-size: 1rem;
+}
+
+.form-group input[type="email"] {
+    border-color: #6275ba;
+}
+
+.form-group input:focus {
+    border-color: #6275ba;
+    outline: none;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6275ba;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-group button:hover {
+    background-color: #525da1;
 }

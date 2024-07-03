@@ -19,17 +19,23 @@
     
         .show {
             transform: translate(0%);
-            background:rgba(6, 214, 242, 0.647);
+            background:rgba(154, 183, 187, 0.647);
         } 
     
         ul.nav-links a {
             display: block;
             text-align: center;
             margin: 20px;
+            
         }
         
         main {
             padding: 20px 30px 0;
         } 
+        .banner-info{
+            z-index: -1;
+        }
+
+        
     
 }
